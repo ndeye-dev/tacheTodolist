@@ -129,7 +129,7 @@ class TodoList extends React.Component {
 
         return (
             <div className="p-4 text-center container mx-auto w-2/4">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between gap-4">
                     <div>
                          <SearchInput filterText={filterText} handleFilterChange={this.handleFilterChange} />
 
